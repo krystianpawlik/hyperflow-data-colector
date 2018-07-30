@@ -1,0 +1,18 @@
+{
+  "name": "data_collector",
+  "version": "1.0.0",
+  "description": "data collector from influxDB",
+  "main": "collect_data.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Krystian Pawlik",
+  "license": "MIT",
+  "dependencies": {
+    "array-to-csv": "^1.0.1",
+    "csv": "^3.1.0",
+    "influxdb-nodejs": "^2.8.0",
+    "json2csv": "^4.1.6",
+    "mkdirp": "^0.5.1"
+  }
+}
